@@ -1,7 +1,7 @@
 #!/bin/bash
 
-host_1="Host"
-count_1="Count"
+host_1="/tmp/hhhost.txt"
+count_1="/tmp/cccount.txt"
 >$host_1
 >$count_1
 
@@ -35,5 +35,7 @@ dialog \
 --msgbox "Minimum: ${min} ms\nAverage: ${avg} \nMaximum: ${max} \nStd_Dev: ${std_dev}" 8 45
 
 rm qbtumwxbvjhwqVFusijfitObpJiYcc.txt
+rm $host_1
+rm $count_1
 
 clear

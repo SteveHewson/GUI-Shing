@@ -15,19 +15,18 @@ Here are some screenshots from GUI-Shing:<br>
 
 
 ## Installation
-After downloading `g_shing.sh` run the following command to make an executable:
+If you are running the script on iSH, I realised that iSH emulator by default does not have `bash`, `dialog` & `git` installed.
+Install them by typing:
 ```
-chmod +x g_shing.sh
+apk add bash && apk add dialog && apk add git
 ```
-
-This will make the shell script also an executable.<br>
-To run the script, run the following command:
+Once the packages are installed, run the script:
 ```
 ./g_shing.sh
 ```
 
 ## NOTE
-Please note that the script creates a temporary text file where the ping output is store.<br>
+Please note that the script creates a temporary text file where the ping output is stored.<br>
 This is useful for the user to take a look at the output, however can be omitted if not needed.<br>
 The name of the temporary file is `qbtumwxbvjhwqVFusijfitObpJiYcc.txt`<br>
 Hopefully the user does not have any file with the same name, or it will be overwritten.<br>
